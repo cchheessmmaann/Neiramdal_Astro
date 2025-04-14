@@ -1,0 +1,68 @@
+.whoEnd {
+    padding-bottom: 30px;
+  }
+  
+  .WhoCards {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  
+  .WhoCard {
+    background-color: #0b0b0b;
+    border-radius: 20px;
+    height: 152px;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .h2who {
+    padding-bottom: 15px !important;
+  }
+  
+  @keyframes moveGradient {
+    0% {
+      background-position: 0% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+  
+  #card1 {
+    background-image: linear-gradient(90deg, #5332cd, #a568da, #5332cd);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moveGradient 5s linear infinite;
+  }
+  
+  #card2 {
+    background-image: linear-gradient(90deg, #5124e7, #8268da, #5124e7);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moveGradient 5s linear infinite;
+  }
+  
+  #card3 {
+    background-image: linear-gradient(90deg, #5332cd, #a568da, #5332cd);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moveGradient 5s linear infinite;
+  }
+  
+  #card4 {
+    background-image: linear-gradient(90deg, #5124e7, #8268da, #5124e7);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moveGradient 5s linear infinite;
+  }
+  

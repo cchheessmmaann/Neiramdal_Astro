@@ -1,0 +1,99 @@
+.grey {
+    color: #5b5b5b;
+  }
+  
+  .platforms-card {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #f5f5f5;
+  }
+  
+  .platforms {
+    display: flex;
+    gap: 15px;
+    color: #f5f5f5;
+  }
+  
+  .skills-price-first-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .skills-price-first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .skills-price,
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .m_15 {
+    margin-bottom: 15px;
+  }
+  
+  .m_30 {
+    margin-bottom: 30px;
+  }
+  
+  .generalMargin60 {
+    margin-bottom: 60px;
+  }
+  
+  .skills-header {
+    min-height: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .skills_paragraph {
+    background-color: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    max-height: 110px;
+    overflow: hidden;
+    transition: all 1s ease;
+  }
+  
+  .skills-icon {
+    transition: transform 0.5s ease;
+    height: 12px;
+  }
+  
+  .skills-icon.rotate {
+    transform: rotate(90deg);
+  }
+  
+  .skills_points {
+    position: relative;
+  }
+  
+  .skills_paragraph:not(:first-child) {
+    margin-top: -1px;
+  }
+  
+  .skills {
+    padding-top: 30px;
+  }
+  
